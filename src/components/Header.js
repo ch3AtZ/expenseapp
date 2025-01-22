@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import './App.css'
+import './header.css'
 const Header = () => (
     <div>
         <p style={{color:'black' , fontSize:'50px',fontWeight:'900'}}>EXPENSE</p>
@@ -10,5 +10,7 @@ const Header = () => (
         <NavLink to='/help' className={({isActive})=>(isActive ? "active-link":"")}>Help</NavLink>
     </div>
 )
+
+
 
 export default Header ; 
